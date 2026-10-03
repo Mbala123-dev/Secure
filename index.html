@@ -1,0 +1,131 @@
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Secures Sync IT Solutions</title>
+   <link href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&family=Open+Sans&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="css/style.css">
+   <link rel="icon" href="images/logo.jpg">
+  <style>
+  </style>
+</head>
+<body>
+ <div class="bg-image">   
+     <header>
+         <div class="logo">
+        <img src="images/logo.jpg" alt="" srcset="">
+    </div>
+    <h1>Secures Sync IT Solutions Enterprises Ltd</h1>
+    <p>Empowering Digital Security & Innovation</p>
+  </header>
+    <nav>
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#why">Why Us</a>
+    <a href="#contact">Contact</a>
+  </nav> 
+ </div>
+   <section id="services">
+    <h2>Our Core Services</h2>
+    <div class="services">
+      <div class="card">
+        <h3>🔒 IT Security Solutions</h3>
+        <p>Protecting your systems with industry-leading IT security frameworks.</p>
+      </div>
+      <div class="card">
+        <h3>🛡️ Cybersecurity Consulting</h3>
+        <p>Expert advice to safeguard your digital infrastructure from threats.</p>
+      </div>
+      <div class="card">
+        <h3>🧠 Data Protection</h3>
+        <p>Ensuring the integrity, privacy, and safety of sensitive data.</p>
+      </div>
+      <div class="card">
+        <h3>💻 Software Development</h3>
+        <p>Building scalable, custom software solutions tailored to your business.</p>
+      </div>
+      <div class="card">
+        <h3>☁️ Cloud Solutions</h3>
+        <p>Flexible and secure cloud infrastructure for modern businesses.</p>
+      </div>
+      <div class="card">
+        <h3>⚙️ System Integration</h3>
+        <p>Streamlining your operations through smart system integration.</p>
+      </div>
+    </div>
+  </section>  
+  <section id="why">
+      <h2>Why Choose Us</h2>
+    <div class="col">
+    <div class="col-2">
+        <img src="images/img-4.jpeg" alt="" srcset="">
+    </div>
+    <div class="col-2">  
+    <ul>
+      <li> Certified & Experienced Team</li>
+      <li>  Proven Track Record</li>
+      <li>  Custom IT Solutions</li>
+      <li>  24/7 Technical Support</li>
+    </ul>
+    </div>
+  </div>
+  </section>
+  <section id="about">
+    <div class="about">
+        <h2 style="color: aliceblue;">About Us</h2>
+    <p>Secures Sync IT Solutions Enterprises Ltd is based in Jos, Plateau State,
+         Nigeria. We are dedicated to providing cutting-edge IT security, cyber security,
+          data protection, software development, and cloud solutions. Our team combines innovation, 
+        reliability, and trust to secure your digital future.</p>
+    </div>
+  </section> 
+    <section id="contact">
+    <h2>Contact Us</h2>
+    <p>Visit us at: No 4 Yan Cement Rikkos, Jos, Plateau State</p>
+    <form class="contact-form">
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea rows="5" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section> 
+   <footer>
+   <div class="col">
+      <div class="footer-col-2">
+        <p class="copy-Right">Copyright © <span id="currentYear"></span> Amsaj_Tech. All Right Reserved. (Surraj) </p>
+      </div>
+      <div class="footer-col-2">
+        <h3>Follow us </h3> <br>
+        <h5>
+            <ul>
+                <li> <a href="https://wa.me/2347061329623" class="whatsapp-icon" target="_blank"><i class="ri-whatsapp-line"></i></a></li>
+            </ul>
+            <ul><li>
+                <a href="https://www.facebook.com/surraj.ahmeed.abubakharHardo" target="_blank">
+                 <i class="ri-facebook-line"></i>
+            </a>
+            </li></ul>
+            <ul><li>
+                <a href="https:www.github.com/elsurraj" target="_blank">
+                 <i class="ri-github-line"></i>
+            </a>
+            </li></ul>
+            <ul><li>
+                <a href="#"> <i class="ri-linkedin-line"></i></a>
+            </li></ul>
+        </h5>
+      </div>
+   </div>
+  </footer> 
+   <script>
+    const year = new Date().getFullYear();
+    document.getElementById('currentYear').textContent = year;
+    document.querySelector('.contact-form').addEventListener('submit', function(e) {
+      e.preventDefault();
+      alert("Thank you for contacting us! We'll get back to you shortly.");
+      this.reset();
+    });
+  </script>
+  </body>
+</html>
